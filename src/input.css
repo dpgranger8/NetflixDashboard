@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+body {
+    /* These properties make the background image scale dynamically based on viewport width and height */
+    background-image: url(dark-grey-living-room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
