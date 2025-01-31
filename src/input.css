@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+    color: whitesmoke;
+}
+
 body {
     /* These properties make the background image scale dynamically based on viewport width and height */
     background-image: url(dark-grey-living-room.jpg);
