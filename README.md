@@ -1,1 +1,1 @@
-![alt text](finished-product.jpg)
+![alt text](src/finished-product.jpg)
