@@ -590,6 +590,15 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+  .left-20 {
+    left: calc(var(--spacing) * 20);
+  }
+  .left-25 {
+    left: calc(var(--spacing) * 25);
+  }
+  .left-30 {
+    left: calc(var(--spacing) * 30);
+  }
   .isolate {
     isolation: isolate;
   }
@@ -710,6 +719,9 @@
   .m-5 {
     margin: calc(var(--spacing) * 5);
   }
+  .m-10 {
+    margin: calc(var(--spacing) * 10);
+  }
   .m-auto {
     margin: auto;
   }
@@ -725,6 +737,12 @@
   .mx-5 {
     margin-inline: calc(var(--spacing) * 5);
   }
+  .mx-8 {
+    margin-inline: calc(var(--spacing) * 8);
+  }
+  .my-5 {
+    margin-block: calc(var(--spacing) * 5);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -734,6 +752,9 @@
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
   }
+  .mr-2 {
+    margin-right: calc(var(--spacing) * 2);
+  }
   .mr-3 {
     margin-right: calc(var(--spacing) * 3);
   }
@@ -742,6 +763,9 @@
   }
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -863,8 +887,17 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
+  .h-1\/2 {
+    height: calc(1/2 * 100%);
+  }
   .h-1\/3 {
     height: calc(1/3 * 100%);
+  }
+  .h-1\/4 {
+    height: calc(1/4 * 100%);
   }
   .h-1\/6 {
     height: calc(1/6 * 100%);
@@ -904,6 +937,9 @@
   }
   .h-50 {
     height: calc(var(--spacing) * 50);
+  }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
   }
   .h-auto {
     height: auto;
@@ -1549,6 +1585,9 @@
   .rounded-4xl {
     border-radius: var(--radius-4xl);
   }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
   .rounded-s {
     border-start-start-radius: 0.25rem;
     border-end-start-radius: 0.25rem;
@@ -1746,6 +1785,9 @@
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
   }
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
   .-bg-conic {
     --tw-gradient-position: in oklab,;
     background-image: conic-gradient(var(--tw-gradient-stops));
@@ -1761,11 +1803,32 @@
   .bg-\[url\(\)\] {
     background-image: url();
   }
+  .bg-\[url\(\.jpg\)\] {
+    background-image: url(.jpg);
+  }
+  .bg-\[url\(ash-vs-evil\.jpg\)\] {
+    background-image: url(ash-vs-evil.jpg);
+  }
+  .bg-\[url\(brooklyn-nine-nine\.jpg\)\] {
+    background-image: url(brooklyn-nine-nine.jpg);
+  }
   .bg-\[url\(girl-profile\.jpg\)\] {
     background-image: url(girl-profile.jpg);
   }
+  .bg-\[url\(money-heist\.jpeg\)\] {
+    background-image: url(money-heist.jpeg);
+  }
+  .bg-\[url\(money-heist\.jpg\)\] {
+    background-image: url(money-heist.jpg);
+  }
   .bg-\[url\(night-agent\.jpg\)\] {
     background-image: url(night-agent.jpg);
+  }
+  .bg-\[url\(peaky-blinders\.jpg\)\] {
+    background-image: url(peaky-blinders.jpg);
+  }
+  .bg-\[url\(ready-player-one\.jpg\)\] {
+    background-image: url(ready-player-one.jpg);
   }
   .bg-\[url\(shadow-and-bone\.jpg\)\] {
     background-image: url(shadow-and-bone.jpg);
@@ -1951,8 +2014,17 @@
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
@@ -2602,6 +2674,11 @@
     @media (width >= 48rem) {
       font-size: var(--text-lg);
       line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
+  }
+  .lg\:ml-2 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 2);
     }
   }
   .lg\:ml-3 {
